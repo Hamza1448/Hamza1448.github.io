@@ -58,6 +58,63 @@
                    </tr>
               </tbody>
            </table>
+
+            <!-- Adding section for contact form -->
+           <section>
+                <h3>We would love to here from you</h3>
+                <!-- Adding a form -->
+                <form action="thanks.html" method="get">
+                    <div>
+
+                        <label for="fullname">Name</label>
+                        <input type="text" name="fullname" id="fullname" placeholder="John Doe">
+                    </div>
+
+                    <div>
+
+                        <label for="yourself">Email</label>
+                        <input type="email" id="yourself" name="yourself" placeholder="algonquin Email" value="@algonquinlive.com" required> 
+                    </div>    
+                    
+                    <div>
+                        <label for="messege">Messege</label>
+                        <textarea name="messege" id="messege" ></textarea>
+                    </div>
+
+                    <div>
+                        <label for="tickets">How many tickets (Sold in paris) </label>
+                        <input type="number" name="tickets" id="tickets"min="2"max="10" step="2" value="2">
+                    </div>
+
+                    <div>
+                        <label for="row">Row</label>
+                    
+                        <select>
+                            <option value="Front" selected>Front</option>
+                            <option value="Center">Center Row</option>
+                            <option value="Back">Back Row</option>
+                         </select>
+                    </div>
+
+                    <div>
+                        <h3>Have you been here before?</h3>
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="yes" name="past">
+
+                        <label for="no">No</label>
+                        <input type="radio" name="past" id="no" >
+                    </div>
+
+                    <div>
+                        <h3>Policies</h3>
+                        <input type="checkbox" name="policies" id="policies" required>
+                        <label for="policies"> I agree to the terms and conditions</label>
+                    </div>
+
+                    <button type="submit">Submit</button>
+
+                </form>
+           </section>
         </main>
         <!-- Site Footer -->
         <footer>
