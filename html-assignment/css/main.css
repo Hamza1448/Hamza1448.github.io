@@ -20,3 +20,6 @@
 a{
     border-style: dotted;
 }
+a:hover {
+    color: pink;
+  }
